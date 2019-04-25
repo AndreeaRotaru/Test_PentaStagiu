@@ -1,0 +1,7 @@
+What is regression? 
+
+Regression Testing is a type of software testing and is used to confirm that new features did not affect the existing ones.
+
+What is retesting?
+
+When we have a defect in the software we should retest the software to see if the defect has removed successfully. 
