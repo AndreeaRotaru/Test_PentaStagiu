@@ -1,0 +1,53 @@
+In the images folder you have a login form. Create Test Cases for the given form.
+
+Please state the testing types(functional, non-functional, black box, white box, design technique) for each TC created.
+
+TC for Create Account:
+
+1. We can use the following button to create an account: facebook, G+ or LinkedIn
+2. We can use our valid email to create an account and for that we need:
+- Name
+-Email
+-Password
+3. After that we press the Sign UP button
+
+TC for field Name:
+
+- enter alphabetic characters
+-enter non-alphabetic characters ( ex: @,# !)
+-see maximum length of characters (ex: 1000 characters is not valid)
+-leave the field empty
+-press space and leave the field empty
+-press space after two names(ex: ana maria)
+
+TC for field Email:
+
+-enter a email adress without @
+-enter a email adress without a valid domain
+-press space after you enter a valid email
+-press space in before your enter a valid email
+
+TC for field Password:
+
+-see if field password is encrypted
+-enter a password with length of 3 character
+-enter a password with length of 100 character
+-enter a password with non-alphabetic characters
+
+Sign in to Diprella
+
+Also we can connect with FB,G+ or LinkedIn
+We can use our valid email and the password and press Sign IN
+
+TC for Email:
+-enter a invalid email (other than we used to create our account)
+-enter our valid email
+
+TC for Password:
+-enter password other than we used to create our account
+-enter our valid password
+
+If you forgot your password → press the “Forgot your password?”
+It redirect as to a page where we should put our valid email
+Press the link that was send it to us to change the password
+Redirect to Sign In page and enter the valid email and the new password and then press Sign IN button.
